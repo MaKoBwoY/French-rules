@@ -831,7 +831,7 @@
             - name: Construction.
               text: Révélez 1 carte pour placer une Citadelle ou un Marché dans une clairière que vous contrôlez de la même couleur que la carte.
             - name: Recrutement.
-              text: Place one warrior in the Burrow.
+              text: Placez 1 guerrier dans le Terrier.
             - name: Déplacement.
               text: Effectuez 1 déplacement.
             - name: Combat.
@@ -1164,7 +1164,7 @@
         - name: Nageurs.
           text: La Diaspora considère les rivières comme des chemins et peut se déplacer le long d’une rivière reliant sans discontinuité les clairières de départ et d’arrivée, peu importe qui contrôle ces clairières. _(Elle peut toujours utiliser les chemins.)_
         - name: Peurs Contagieuses.
-          text: En combat, après qu’un adversaire vous a combattu dans une clairière avec une Enclave paisible, ou si un adversaire a retiré une Enclave paisible autrement que lors d’un combat, retournez face militante toutes les Enclaves paisibles avec des pièces de cet adversaire et placez 1 guerrier sur chaque Enclave retournée.
+          text: En combat, après qu’un adversaire vous a combattu dans une clairière avec une Enclave paisible, ou a retiré une Enclave paisible autrement que lors d’un combat, retournez face militante toutes les Enclaves paisibles avec des pièces de cet adversaire et placez 1 guerrier sur chaque Enclave retournée.
         - name: Négociations.
           text: Une fois pendant son tour, un adversaire avec des pièces de faction dans la clairière d’une Enclave militante peut la retourner face paisible. S’il ne contrôle pas la clairière et qu’un autre joueur contrôle, il doit donner une carte à ce joueur pour retourner l’Enclave.
         - name: Fabrication.
@@ -1422,7 +1422,7 @@
       pretext: Vous pouvez choisir ensemble d’installer les factions comme indiqué dans la Mise en place standard (`rule:5.1`) ou d’utiliser les cartes de Mise en place incluses dans l’extension Maraude et Terre Natale, comme indiqué ci-dessous.
       children:
         - name: 'Étape 1 : Créer la poule de sélection.'
-          text: Décidez ensemble des factions à exclure de la partie. Vous ne pouvez pas inclure en même temps le Vagabond et les Gredins de Bois-Fonds. Si vous incluez le Vagabond, décidez d’utiliser une ou deux cartes de mise en place de Vagabond. _(Nous recommendons une seule carte, hormis pour les groupes qui veulent expérimenter.)_
+          text: Décidez ensemble des factions à exclure de la partie. Vous ne pouvez pas inclure en même temps le Vagabond et les Gredins de Bois-Fonds. Si vous incluez le Vagabond, décidez d’utiliser une ou deux cartes de mise en place de Vagabond. _(Nous recommendons une seule carte, hormis pour les groupes qui aiment expérimenter.)_
         - name: 'Étape 2 : Distribuer les cartes de mise en place.'
           text: Mélangez toutes les cartes de mise en place de faction militante _(nom rouge avec une épée)_ et piochez-en 1 à placer au centre de la table. Mélangez le reste des cartes de mise en place de faction militante avec toutes les cartes de mise en place de faction Insurgée _(nom gris sans épée)_, et piochez 1 carte de mise en place par joueur. Placez ces cartes une à une à côté de celle déjà placée au centre de la table. _(Il doit y avoir une carte de mise en place de faction de plus que le nombre de joueurs.)_
           children:
@@ -1439,7 +1439,7 @@
           children:
             - name: Patries.
               text: Lors de la Mise en place, les joueurs peuvent avoir à choisir une ou plusieurs clairières comme Patrie. Ils ne peuvent pas choisir une Patrie déjà choisie comme telle par un adversaire, ni choisir une Patrie dans laquelle ils ne peuvent pas placer toutes les pièces indiquées dans les étapes de Mise en place.
-            - name: Adjacence de patries adverse.
+            - name: Adjacence de Patries adverses.
               text: Certaines factions vous indiquent de choisir une Patrie qui n’est pas adjacente à une Patrie adverse ; si vous ne le pouvez pas, choisissez une Patrie adjacente à une Patrie adverse. Si vous devez choisir une Patrie à plus de 2 clairières de distance de Patries adverses mais ne le pouvez pas, choisissez une Patrie qui n’est adjacente à aucune Patrie adverse. _(De manière plus générale, essayez de vous installer « le plus loin possible des autres ».)_
             - name: Adjacence de Patries multiples.
               text: Si votre faction a plusieurs Patries et que vous ne pouvez pas remplir toutes leurs conditions d’adjacence avec les adversaires (`rule:19.8.3.2`), mettez-les en place dans l’ordre de votre choix, en remplissant autant que possible chaque condition requise.
@@ -1515,7 +1515,7 @@
         - name: Pièces en bois.
           text: 43 Guerriers _\(20 Diaspora, 20 Conseil, 10 Sconses Gredins\)_, 3 Vagabond / Capitaines _\(Geôlier, Gladiateur, Tricheur\)_, 3 Monuments _\(Fort-Souris, Renardière, Bourg-Lapin\)_.
         - name: Cartes.
-          text: 14 Grenouille, 12 Capitaines, 3 Personnages Vagabonds, 3 Aperçus de Faction, 3 Mise en place de Faction, 4 Clarifications, 3 Monuments, 19 Mises à jour.
+          text: 14 Grenouille, 12 Capitaines, 3 Personnages Vagabonds, 3 Aperçus de Faction, 3 Mise en place de Faction, 4 Clarifications, 3 Monuments, 19 Corrections.
         - name: Autres.
           text: Plateau _\(Plateaux Marais et Gorge\)_, 3 Plateaux de Faction _\(Diaspora, Conseil, Gredins\)_, 2 Dés de Combat.
 
@@ -1541,16 +1541,15 @@
         - name: Autres.
           text: 4 Plateaux de Faction.
 
-    - name: Paquets de cartes additionnels
+    - name: Paquet de cartes Exilés et Partisans (inclus dans la boîte Monde Souterrain)
       children:
-        - name: Paquet de cartes Exilés et Partisans (inclus dans la boîte Monde Souterrain)
-          children:
-            - name: Cartes.
-              text: 54 Cartes pour le paquet commun.
-        - name: Paquet de cartes Écuyers et Disciples
-          children:
-            - name: Cartes.
-              text: 54 Cartes pour le paquet commun.
+        - name: Cartes.
+          text: 54 Cartes pour le paquet commun.
+
+    - name: Paquet de cartes Écuyers et Disciples
+      children:
+        - name: Cartes.
+          text: 54 Cartes pour le paquet commun.
 
     - name: Pack Monuments (inclus dans la boîte Mauraude)
       children:
@@ -1731,7 +1730,7 @@
         - name: Objets de départ.
           text: Commence avec `item:boot`, `item:crossbow`, `item:torch`.
         - name: 'Action spéciale : Coercision.'
-          text: Une fois par tour, vous pouvez dépenser une carte correspondant à la clairière du Geôlier pour considérer avoir épuisé n’importe quel objet. Après l’action qu’il déclenche ou complète, perdez 1 point de victoire. Cette action peut être intervenir pendant les actions de votre tour. _(Vous pouvez l’utiliser pour réparer, fabriquer, aider, compléter une quête, et acheter des services à la Compagnie de la Rivière.)_
+          text: Une fois par tour, vous pouvez dépenser une carte correspondant à la clairière du Geôlier pour considérer avoir épuisé n’importe quel objet. Après l’action qu’il déclenche ou complète, perdez 1 point de victoire. Cette action peut intervenir pendant les actions de votre tour. _(Vous pouvez l’utiliser pour réparer, fabriquer, aider, compléter une quête, et acheter des services à la Compagnie de la Rivière.)_
 
 - name: Nomades
   appendix: E

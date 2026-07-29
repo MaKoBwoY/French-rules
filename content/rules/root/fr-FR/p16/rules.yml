@@ -34,7 +34,7 @@
         - name: Interruptions.
           text: Aucune action _(y compris une action composée de plusieurs étapes comme la Marche de la Marquise)_, capacité _(comme le Complot Déjoué des Corvidés)_, ou effet persistant _(comme la carte Émigré de la Canopée)_ ne peut être interrompu par un autre effet, sauf mention contraire explicite. _(Par exemple, la carte Armuriers précise qu’elle s’utilise « En combat... »)_.
         - name: Fin de tour.
-          text: Une fois qu’un joueur entame la dernière étape de son tour, il ne peut plus effectuer d’actions autres que celles qui précisent « fin du Crépuscule » or « fin du tour », comme les Nomades (`rule:23.`).
+          text: Une fois qu’un joueur entame la dernière étape de son tour, il ne peut plus effectuer d’actions autres que celles qui précisent « fin du Crépuscule » ou « fin du tour », comme les Nomades (`rule:23.`).
 
     - name: Pièces
       children:
@@ -82,7 +82,7 @@
         - name: Couleur.
           text: 'Chaque clairière possède une **couleur** : Souris, Lapin ou Renard. `faction:duchy$12.2.2``faction:diaspora$16.2.1.1`'
         - name: Emplacements.
-          text: Chaque clairière compte un certain nombre **d’emplacements pour bâtiments** _(carrés blancs)_. Lorsque vous placez un bâtiment, il remplit un emplacement libre. Vous ne pouvez pas placer de bâtiment dans une clairière sans emplacement libre.
+          text: Chaque clairière compte un certain nombre d’**emplacements pour bâtiments** _(carrés blancs)_. Lorsque vous placez un bâtiment, il remplit un emplacement libre. Vous ne pouvez pas placer de bâtiment dans une clairière sans emplacement libre.
         - name: Ruines.
           text: Les emplacements marqués d’un "R" sont occupés par des **ruines** en début de partie. Les ruines ne peuvent être retirées que si cela est explicitement indiqué _(comme par l’action d’Exploration d’un Vagabond, `rule:9.5.3`)_.
 
@@ -168,7 +168,7 @@
         - name: 'Étape 2 : Utilisez des effets d’avant-dés.'
           text: Les joueurs peuvent utiliser des effets s’appliquant « avant le lancer de dés » en combat. _(L’attaquant choisit dans quel ordre si les deux joueurs en utilisent.)_
         - name: 'Étape 3 : Lancer les dés.'
-          text: Lancez les 2 dés de combat. L’attaquant infligera autant de pertes que le plus grand résultat, et le défenseur autant que le plus petit résultat. Si les résultats sont identiques, l’attaquant et le défenseur infligeront le même nombre de pertes. _(Les pertes ne seront infligées qu’à l’étape 6, d’où l’emploi du futur.) _ `faction:woodland$8.2.2`
+          text: Lancez les 2 dés de combat. L’attaquant infligera autant de pertes que le plus grand résultat, et le défenseur autant que le plus petit résultat. Si les résultats sont identiques, l’attaquant et le défenseur infligeront le même nombre de pertes. _(Les pertes ne seront infligées qu’à l’étape 6, d’où l’emploi du futur.)_ `faction:woodland$8.2.2`
           children:
             - name: Maximum de pertes infligées.
               text: Le maximum de pertes que vous infligez avec un dé est égal au nombre de vos guerriers présents dans la clairière du combat, que vous soyez attaquant ou défenseur. `faction:vagabond$9.2.6`
@@ -388,7 +388,7 @@
   icon: faction-woodland
   children:
     - name: Aperçu
-      pretext: The Woodland Alliance works to gain the **sympathy** of the various creatures of the Woodland who are dissatisfied with their present condition. Each time the Alliance places a sympathy token, they may score victory points. The more sympathy on the map they have, the more victory points they score. Gaining the sympathy of the people requires **supporters**. These supporters can also be put toward violent ends, inciting outright rebellion across the forest. When a revolt erupts, the Alliance will establish a **base**. Bases allow the Alliance to train officers, increasing their military flexibility.
+      pretext: L’Alliance de la Forêt fait son possible pour s’attirer la **Sympathie** des créatures opprimées des Sous-Bois. Chaque fois que l’Alliance place un jeton de Sympathie, elle peut marquer des points de victoire. Plus elle a placé de jetons de Sympathie, plus elle marque de points. Gagner la Sympathie des peuples nécessite des **partisans**, des cartes posées sur son plateau de faction. Ces partisans peuvent aussi être poussés à une violente révolte. Une révolte établit une **base**, permettant à l’Alliance d’entraîner des officiers qui offrent une plus grande flexibilité militaire.
 
     - name: Règles et capacités de la faction
       children:

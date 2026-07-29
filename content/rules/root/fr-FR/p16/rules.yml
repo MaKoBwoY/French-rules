@@ -268,7 +268,7 @@
     - name: Aurore
       pretext: Placez du Bois dans chaque clairière avec n’importe quel nombre de Scieries, à raison de 1 Bois par Scierie dans la clairière.
 
-    - name: Daylight
+    - name: Jour
       pretext: D’abord, vous pouvez activer vos Ateliers pour fabriquer des cartes de votre main. Puis vous pouvez effectuer jusqu’à 3 actions dans n’importe quel ordre. Une même action peut être effectuée plusieurs fois. À tout moment, vous pouvez effectuer des actions additionnelles en dépensant une carte Oiseau par action.
       children:
         - name: Combat.
@@ -483,7 +483,7 @@
     - name: Aperçu
       pretext: Le Vagabond participe au conflit sans prendre parti, tout en poursuivant ses propres quêtes afin d’accroître sa popularité dans les bois. Il marque des points de victoire lorsqu’il améliore ses **relations** avec les autres factions, ou lorsqu’il retire les pièces des factions qui lui sont hostiles. Il peut aussi accomplir des **quêtes** pour marquer des points. Pour se déplacer et agir efficacement, le Vagabond doit gérer ses **objets**, et agrandir sa collection en explorant les ruines et en apportant son aide aux autres factions.
 
-    - name: Règles et Capacités de la Faction
+    - name: Règles et capacités de la faction
       children:
         - name: Fabrication.
           text: Le Vagabond épuise ses `item:hammer` pour activer son pion comme pièce de fabrication, en ignorant la limite d’une fois par tour (`rule:4.1.1`). S’il fabrique un objet, il le prend immédiatement face visible.
@@ -544,7 +544,7 @@
         - name: Déplacement dans les bois.
           pretext: Se faufiler (`rule:9.4.2`) vous permet de vous déplacer vers et hors des bois. Les autres actions de Déplacement vous permettent seulement de vous déplacer hors d’un bois vers une clairière adjacente, pas vers un bois.
 
-    - name: Mise en Place de la Faction
+    - name: Mise en place de la faction
       children:
         - name: 'Étape 1 : Choisir un personnage.'
           text: Choisissez une carte de personnage et placez-la sur votre plateau de faction.
@@ -804,7 +804,7 @@
         - name: Tunnels.
           text: Le Duché a 3 jetons de Tunnel. Si le Duché doit placer un Tunnel, mais que ses 3 Tunnels sont sur le plateau, il peut d’abord en retirer un du plateau.
 
-    - name: Mise en Place de la Faction
+    - name: Mise en place de la faction
       children:
         - name: 'Étape 1 : Préparer les pièces.'
           text: Formez une réserve de 20 guerriers et 3 Tunnels près de vous.
@@ -977,7 +977,7 @@
         - name: Pillards.
           text: Au début d’un combat où ils sont l’attaquant, les Cents peuvent déclarer qu’ils souhaitent piller le défenseur, à condition que celui-ci possède un objet dans sa case Objets Fabriqués. _(Ils ne peuvent pas piller le Vagabond.)_ S’ils déclarent souhaiter piller le défenseur, les Cents n’infligent aucune perte avec son dé. _(Le défenseur inflige des pertes avec son dé, les Cents peuvent infliger des pertes additionnelles, grâce à l’humeur Furieux, par exemple.)_ Puis, à la fin du combat, si les Cents contrôlent la clairière du combat, ils prennent un objet dans la case Objets Fabriqués du défenseur.
 
-    - name: Mise en Place de la Faction
+    - name: Mise en place de la faction
       children:
         - name: 'Étape 1 : Préparer les pièces.'
           text: Formez une réserve de 20 guerriers, 1 Seigneur de guerre, et 6 Bastions.
@@ -1219,7 +1219,7 @@
     - name: Aperçu
       pretext: Le Conseil Crépusculaire oeuvre à réprimer la violence en réunissant la population en **Assemblées**, dans l’espoir de mettre fin à la guerre civile. Les Assemblées permettent au Conseil de marquer des points de victoire, bannir les guerriers adverses de leurs clairières et recruter des **Loyalistes**, guerriers de son plateau de faction qu’il peut placer ensuite sur ses Assemblées. Le Conseil agit comme **Pacificateur** à ses Assemblées, en défendant les factions adverses lorsqu’elles y sont attaquées. En contrôlant les Assemblées, le Conseil peut les retourner sur leur face **gouvernante**. Au Crépuscule, il marque des points basés sur le nombre d’Assemblées gouvernantes avec des bâtiments ou jetons adverses. Ses **Administrateurs** limitent les actions des adversaires aux Assemblées gouvernantes, à moins que ceux-ci ne décident d’**Exhorter** le Conseil à clore temporairement l’Assemblée.
 
-    - name: Règles et Capacités de la Faction
+    - name: Règles et capacités de la faction
       children:
         - name: Loyalistes.
           text: Le Conseil peut accueillir jusqu’à 4 guerriers sur son plateau de faction en tant que Loyalistes. Il peut placer des Loyalistes avec Exhorter (`rule:17.2.4`) et Rassemblement (`rule:17.4.4`). Il peut retirer des Loyalistes à tout moment.
@@ -1237,7 +1237,7 @@
         - name: Fabrication.
           text: Le Conseil fabrique durant le Crépuscule en activant des Assemblées.
 
-    - name: Mise en Place de la Faction
+    - name: Mise en place de la faction
       children:
         - name: 'Étape 1 : Préparer les guerriers.'
           text: Formez une réserve de 20 guerriers.
@@ -1298,7 +1298,7 @@
     - name: Aperçu
       pretext: Les Gredins des Bois-Fonds s’efforcent de moquer les puissants et de protéger les nécessiteux. À chaque tour, ils marquent des points de victoire pour leurs **Ovations** à travers les Sous-Bois ainsi que pour les guerriers retenus **Prisonniers** lors des combats avec les factions ennemies. Ils agissent chaque tour avec l’un de leurs trois **Capitaines**, secondé par une bande de **Sconses** agités qui peuvent se déplacer avec lui. Toutefois, un Capitaine ne peut plus agir à nouveau tant que les Gredins n’ont pas agi avec chacun des trois Capitaines, puis entrepris une **Relâche**. Les objets de leur **Planque** peuvent être retournés face cachée pour effectuer des actions spéciales avec leur Capitaine. Comme leur Capitaines, ces objets ne sont retournés face visible qu’après une Relâche.
 
-    - name: Règles et Capacités de la Faction
+    - name: Règles et capacités de la faction
       children:
         - name: Vagabonds exclus.
           text: Les Gredins des Bois-Fonds et le Vagabond ne peuvent pas être joués ensemble dans une partie.
@@ -1317,7 +1317,7 @@
         - name: Fabrication.
           text: Les Gredins fabriquent durant le Jour en activant leur Capitaine Actif ou leurs Ovations. L’action Dérober (`rule:18.5.1.3`) leur permet d’activer leur Capitaine Actif, et l’action Service (`rule:18.5.1.4.7`) leur permet d’activer toutes les Ovations de la couleur de clairière du Capitaine. Chaque Ovation ne peut être activée qu’une fois par tour.
 
-    - name: Mise en Place de la Faction
+    - name: Mise en place de la faction
       children:
         - name: 'Étape 1 : Préparer les guerriers.'
           text: Formez une réserve de 10 guerriers Sconses.

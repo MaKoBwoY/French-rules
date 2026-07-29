@@ -1250,11 +1250,11 @@
       pretext: Autant de fois que souhaité, vous pouvez révéler une carte pour effectuer l’une des actions suivantes. _(Prenez les cartes révélées dans votre main et placez-les dans votre aire de jeu. Elles ne peuvent pas être utilisées d’une autre manière durant votre Aurore.)_
       children:
         - name: Déplacement.
-          text: Déplacez-vous depuis une clairière de la couleur de la carte révélée.
+          text: Déplacez-vous depuis une clairière correspondant à la carte révélée.
         - name: Recrutement.
-          text: Placez 1 guerrier dans une clairière de la couleur de la carte révélée.
+          text: Placez 1 guerrier dans une clairière correspondant à la carte révélée.
         - name: Combat.
-          text: Initiez un combat dans une clairière de la couleur de la carte révélée. Si une Assemblée est présente, défaussez la carte révélée.
+          text: Initiez un combat dans une clairière correspondant à la carte révélée. Si une Assemblée est présente, défaussez la carte révélée.
         - name: Rassemblement.
           text: Placez une Assemblée close et autant de Loyalistes que souhaité dans une clairière sans Assemblée de la couleur de la carte révélée. Défaussez ensuite la carte révélée si vous ne contrôlez pas la clairière.
 
@@ -1270,7 +1270,7 @@
           text: Reprenez une à une les cartes révélées à l’Aurore dans votre main. Pour chaque carte révélée, vous pouvez effectuer l’une des actions suivantes.
           children:
             - name: Bannir.
-              text: Si vous avez repris une carte non-Oiseau, initiez un combat dans une clairière d’Assemblée correspondante. Les guerriers perdus par le défenseur ne sont pas retirés ; au lieu de cela, forcez leur déplacement vers une seule destination de votre choix, en ignorant le contrôle. Considérez ceci comme un seul déplacement pour le déclenchement d’autres effets. Vous ne pouvez pas infliger de pertes aux bâtiments et jetons, et vous ignorez vos pertes (sauf les embuscades et les pertes additionnelles)_.
+              text: Si vous avez repris une carte non-Oiseau, initiez un combat dans une clairière d’Assemblée correspondante. Les guerriers perdus par le défenseur ne sont pas retirés ; au lieu de cela, forcez leur déplacement vers une seule destination de votre choix, en ignorant le contrôle. Considérez ceci comme un seul déplacement pour le déclenchement d’autres effets. Vous ne pouvez pas infliger de pertes aux bâtiments et jetons, et vous ignorez vos pertes _(sauf les embuscades et les pertes additionnelles)_.
               children:
                 - name: Le Seigneur de guerre.
                   text: Le Seigneur de guerre n’est pas affecté par Bannir car il ne peut pas être déplacé en dehors du tour des Cents. _(Leurs autres guerriers le sont.)_

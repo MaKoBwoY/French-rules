@@ -5,8 +5,7 @@
       children:
         - name: Préséance.
           text: Si une carte contredit une règle de la Loi, la carte prévaut. Si le livret d’apprentissage contredit une règle de la Loi, la Loi prévaut. Si vous pouvez suivre à la fois une règle générale et une règle de faction ou une règle de Nomade, faites-le. Sinon, suivez la règle de la faction ou la règle de Nomade.
-        - name: '**Interdiction**.'
-          plainName: Interdiction.
+        - name: Interdiction.
           text: Le terme **ne peut pas** est absolu. Il ne peut pas être annulé par une autre règle, sauf instruction explicite.
         - name: Joueur décisionnaire ou ordre de résolution non précisés.
           text: Chaque fois que l’ordre dans lequel deux effets simultanés doivent être résolus n’est pas précisé, le joueur dont c’est le tour prend la décision. De même, lorsque le joueur chargé de prendre une décision n’est pas indiqué, celui dont c’est le tour s’en charge.
@@ -35,7 +34,7 @@
         - name: Interruptions.
           text: Aucune action _(y compris une action composée de plusieurs étapes comme la Marche de la Marquise)_, capacité _(comme le Complot Déjoué des Corvidés)_, ou effet persistant _(comme la carte Émigré de la Canopée)_ ne peut être interrompu par un autre effet, sauf mention contraire explicite. _(Par exemple, la carte Armuriers précise qu’elle s’utilise « En combat... »)_.
         - name: Fin de tour.
-          text: Une fois qu’un joueur entame la dernière étape de son tour, il ne peut plus effectuer d’actions autres que celles qui précisent « fin du Crépuscule » or « fin du tour », comme les Nomades (`rule:22.`).
+          text: Une fois qu’un joueur entame la dernière étape de son tour, il ne peut plus effectuer d’actions autres que celles qui précisent « fin du Crépuscule » or « fin du tour », comme les Nomades (`rule:23.`).
 
     - name: Pièces
       children:
@@ -46,7 +45,7 @@
         - name: Propriétaire des pièces.
           text: Le propriétaire des pièces d’une faction ne peut pas changer. _(Par exemple, la Marquise ne peut pas utiliser Hôpitaux de campagne sur des mercenaires de la Compagnie de la Rivière ou sur des Nomades, étant donné qu’il ne s’agit pas de guerriers de la Marquise.)_
         - name: Manipulation des pièces.
-          text: Les pièces peuvent être placées et retirées, comme défini dans le Glossaire (`rule:21.20`, `rule:21.24`). Si vous devez placer, prendre ou retirer une ou plusieurs pièces sans pouvoir le faire, utilisez le maximum de pièces possible. _(Cela ne vous permet pas d’éviter des coûts ou des prérequis. Vous ne pouvez pas faire moins que le maximum possible.)_ Si plusieurs pièces déclenchant des effets sont retirées simultanément, retirez d’abord toutes les pièces, puis résolvez les effets.
+          text: Les pièces peuvent être placées et retirées, comme défini dans le Glossaire (`rule:25.29`, `rule:25.33`). Si vous devez placer, prendre ou retirer une ou plusieurs pièces sans pouvoir le faire, utilisez le maximum de pièces possible. _(Cela ne vous permet pas d’éviter des coûts ou des prérequis. Vous ne pouvez pas faire moins que le maximum possible.)_ Si plusieurs pièces déclenchant des effets sont retirées simultanément, retirez d’abord toutes les pièces, puis résolvez les effets.
         - name: '**Forcer à**.'
           plainName: Forcer à.
           text: Certains effets **forcent** un joueur ou ses pièces à agir. Résolvez ces actions exactement comme si le joueur choisissait de les effectuer (dans les limites de l’effet). _(Par exemple, si vous forcez la Canopée à déplacer des guerriers, Seigneurs de la Forêt s’applique toujours.)_
@@ -56,10 +55,10 @@
 
 - name: Concepts clés
   color: '#000000'
-  pretext: Vous trouverez la définition des termes dans le Glossaire (`rule:21.`).
+  pretext: Vous trouverez la définition des termes dans le Glossaire (`rule:25.`).
   children:
     - name: Cartes
-      pretext: 'Vous piochez des cartes dans la pioche commune et les défaussez dans la défausse commune. Si la pioche est vide, mélangez immédiatement la défausse pour former une nouvelle pioche. Chaque carte possède une **couleur** : oiseau, renard, lapin ou souris. La plupart des cartes ont également un effet qu’il est possible de fabriquer (`rule:4.1`). `faction:cult$10.2.6``faction:diaspora$16.2.2`'
+      pretext: 'Vous piochez des cartes dans la pioche commune et les défaussez dans la défausse commune. Si la pioche est vide, mélangez immédiatement la défausse pour former une nouvelle pioche. Chaque carte possède une **couleur** : Oiseau, Renard, Lapin ou Souris. La plupart des cartes ont également un effet qu’il est possible de fabriquer (`rule:4.1`). `faction:cult$10.2.6``faction:diaspora$16.2.2`'
       children:
         - name: Les Oiseaux sont des jokers.
           text: Vous pouvez considérer toute carte Oiseau comme une carte d’une autre couleur, même si vous devez dépenser, prendre ou donner plusieurs cartes de même couleur. `faction:cult$10.2.2` `faction:council$17.6.1`
@@ -73,7 +72,7 @@
         - name: Cartes Domination.
           text: Le jeu contient 4 **cartes domination**, une de chaque couleur. Elles ne peuvent pas être fabriquées. Vous pouvez en jouer une pour changer définitivement vos conditions de victoire (`rule:3.3`). `faction:diaspora$16.2.2.1`
         - name: Votre aire de jeu.
-          text: Lorsque vous activez une carte Domination (`rule:3.3.1`), fabriquez des effets persistants (`rule:4.1`), ou révélez des cartes (`rule:21.25`), placez ces cartes dans votre **aire de jeu**, à proximité. Elles ne sont pas dans votre main et peuvent seulement être dépensées, défaussées ou utilisées d’une autre manière si instruction explicite.
+          text: Lorsque vous activez une carte Domination (`rule:3.3.1`), fabriquez des effets persistants (`rule:4.1`), ou révélez des cartes (`rule:25.34`), placez ces cartes dans votre **aire de jeu**, à proximité. Elles ne sont pas dans votre main et peuvent seulement être dépensées, défaussées ou utilisées d’une autre manière si instruction explicite.
 
     - name: Clairières et Chemins
       pretext: Le plateau de la Forêt est composé de **clairières** reliées par des **chemins**.
@@ -81,7 +80,7 @@
         - name: Adjacence.
           text: Une clairière est adjacente à toute autre clairière qui lui est reliée par un chemin. `faction:duchy$12.2.2`
         - name: Couleur.
-          text: 'Chaque clairière possède une **couleur** : souris, lapin ou renard. `faction:duchy$12.2.2``faction:diaspora$16.2.1.1`'
+          text: 'Chaque clairière possède une **couleur** : Souris, Lapin ou Renard. `faction:duchy$12.2.2``faction:diaspora$16.2.1.1`'
         - name: Emplacements.
           text: Chaque clairière compte un certain nombre **d’emplacements pour bâtiments** _(carrés blancs)_. Lorsque vous placez un bâtiment, il remplit un emplacement libre. Vous ne pouvez pas placer de bâtiment dans une clairière sans emplacement libre.
         - name: Ruines.
@@ -436,7 +435,7 @@
             - name: 'Étape 2 : Dépenser les partisans.'
               text: Dépensez 2 partisans de la couleur de la clairière choisie.
             - name: 'Étape 3 : Résoudre l’effet.'
-              text: Retirez toutes les pièces adverses de la clairière choisie. Puis placez-y votre base de même couleur, et autant de guerriers que le nombre de clairières sympathisantes de la même couleur imprimée que la base. Enfin, placez 1 guerrier dans la case Officiers. Ce guerrier est désormais un **officier**. _(N’oubliez pas de marquer 1 point de victoire pour chaque bâtiment et jeton retiré.)_
+              text: Retirez toutes les pièces adverses de la clairière choisie. Puis placez-y votre base correspondante, et autant de guerriers que le nombre de clairières sympathisantes de la même couleur imprimée que la base. Enfin, placez 1 guerrier dans la case Officiers. Ce guerrier est désormais un **officier**. _(N’oubliez pas de marquer 1 point de victoire pour chaque bâtiment et jeton retiré.)_
         - name: Gagner la Sympathie.
           text: 'Vous pouvez effectuer l’action Gagner la Sympathie autant de fois que souhaité en résolvant les étapes suivantes :'
           children:
@@ -501,7 +500,7 @@
           text: Les capacités du Vagabond dépendent des objets qu’il possède. Il n’a pas d’emplacement d’objets fabriqués, mais il possède une Sacoche et diverses pistes d’objets. Les objets sur son plateau de faction peuvent être face visible ou face cachée, et intacts ou endommagés. Le Vagabond **épuise** ses objets intacts face visible en les retournant face cachée pour réaliser des actions.
           children:
             - name: Pistes d’objets.
-              text: Lorsque les `item:coin`, `item:tea`, ou `item:sack` sont face visible dans votre sacoche, placez-les dans les cases vides de leur piste respective, si possible. Lorsque les `item:coin`, `item:tea`, ou `item:sack` sont retournés face cachée sur leur piste, placez-les dans votre Sacoche. Chaque piste ne peut contenir que 3 objets identiques.
+              text: Lorsque les `item:coin`, `item:tea`, ou `item:sack` sont face visible dans votre sacoche, placez-les dans les cases vides de leur piste correspondante, si possible. Lorsque les `item:coin`, `item:tea`, ou `item:sack` sont retournés face cachée sur leur piste, placez-les dans votre Sacoche. Chaque piste ne peut contenir que 3 objets identiques.
             - name: La Sacoche.
               text: Les `item:boot`, `item:sword`, `item:crossbow`, `item:torch`, et `item:hammer` gagnés sont placés face visible dans la Sacoche du Vagabond.
         - name: Maximum de pertes infligées.
@@ -764,7 +763,7 @@
           text: Investissez des fonds pour fabriquer une carte en main. Au lieu de déplacer des guerriers sur la case Investissements, vous devez les placer sur des cases vides de la piste de Comptoirs commerciaux de la couleur requise par le coût de la carte.
           children:
             - name: Export.
-              text: Vous pouvez ignorer l’effet d’une carte construite et la défausser pour placer 1 guerrier de la Compagnie sur la case Paiements.
+              text: Vous pouvez ignorer l’effet d’une carte fabriquée et la défausser pour placer 1 guerrier de la Compagnie sur la case Paiements.
         - name: Pioche.
           text: Investissez 1 fonds pour piocher 1 carte.
         - name: Recrutement.
@@ -1159,7 +1158,7 @@
           text: Lorsqu’une carte Grenouille est défaussée, elle est placée face visible sur la pile disposée sur le placard de la Mare, au lieu de la défausse. _(Avec le Culte des Lézards, les cartes Grenouille défaussées vont sur la Mare, pas dans les Âmes Perdues.)_
           children:
             - name: Pioche.
-              text: Lorsqu’un joueur pioche une ou plusieurs cartes, il peut piocher la première carte sur le dessus de la Mare au lieu de la pioche commune.
+              text: Lorsqu’un joueur pioche une ou plusieurs cartes, il peut prendre sa première carte sur le dessus de la Mare au lieu de la pioche commune.
             - name: Rebattage.
               text: Toutes les cartes de la Mare sont ajoutées à la pioche commune lorsqu’elle est mélangée.
         - name: Nageurs.
@@ -1223,7 +1222,7 @@
     - name: Règles et Capacités de la Faction
       children:
         - name: Loyalistes.
-          text: Le Conseil peut accueillir jusqu’à 4 guerriers sur son plateau de faction en tant que Loyalistes. Il peut placer des Loyalistes avec Exhorter (`rule:17.2.4`) et Rassemblement (`rule:17.4.3`). Il peut retirer des Loyalistes à tout moment.
+          text: Le Conseil peut accueillir jusqu’à 4 guerriers sur son plateau de faction en tant que Loyalistes. Il peut placer des Loyalistes avec Exhorter (`rule:17.2.4`) et Rassemblement (`rule:17.4.4`). Il peut retirer des Loyalistes à tout moment.
         - name: Assemblées.
           text: 'Les Assemblées ont deux faces : close _(tente fermée)_ et gouvernante _(tente ouverte)_. Quand un adversaire du Conseil retire une Assemblée, le Conseil retire 1 Loyaliste.'
         - name: Administrateurs.
@@ -1360,7 +1359,7 @@
                 - name: Offrande (`item:coin`).
                   text: Placez 1 Ovation dans la clairière du Capitaine Actif et piochez 1 carte. _(S’il est dans un bois, piochez juste 1 carte.)_ Si une Ovation est déjà dans la clairière du Capitaine Actif, piochez alors 2 cartes.
                 - name: Service (`item:hammer`).
-                  text: Placez 1 Ovation dans la clairière du Capitaine Actif. Si une Ovation est déjà dans la clairière du Capitaine Actif, activez alors cette Ovation et d’autres dans des clairières de même couleur pour fabriquer des cartes. _(Vous marquez les points indiqués sur la carte. Chaque Ovation ne peut être activée qu’une seule fois par tour pour fabriquer.)_
+                  text: Placez 1 Ovation dans la clairière du Capitaine Actif. Si une Ovation est déjà dans la clairière du Capitaine Actif, activez alors cette Ovation et d’autres dans des clairières correspondantes pour fabriquer des cartes. _(Vous marquez les points indiqués sur la carte. Chaque Ovation ne peut être activée qu’une seule fois par tour pour fabriquer.)_
         - name: Se Retirer.
           text: Retournez face cachée la carte Capitaine de l’emplacement Capitaine Actif et replacez-la dans votre réserve.
 
@@ -1403,7 +1402,7 @@
           text: Le dernier joueur dans l’ordre du tour installe un des Monuments piochés, comme indiqué sur sa carte. Si vous avez choisi de jouer avec 2 Monuments, l’avant-dernier joueur dans l’ordre du tour installe l’autre Monument pioché, comme indiqué sur sa carte.
 
     - name: 'Étape 6 : Installer les Nomades'
-      pretext: 'Vous pouvez choisir ensemble d’utiliser exactement 3 Nomades (`rule:22.`), en suivant ces étapes :'
+      pretext: 'Vous pouvez choisir ensemble d’utiliser exactement 3 Nomades (`rule:23.`), en suivant ces étapes :'
       children:
         - name: 'Étape 1 : Prendre les pièces.'
           text: Mélangez toutes les cartes Nomade. Distribuez 3 cartes Nomade et rangez le reste des cartes dans la boîte. Prenez les pièces des Nomades distribués et formez des réserves avec celles-ci.
@@ -1512,7 +1511,7 @@
         - name: Livrets de règles.
           text: Livret d’apprentissage et la Loi de Root.
         - name: Pièces en carton.
-          text: 26 Jetons _\(12 Enclaves, 6 Assemblées, 8 Ovations\)_, 28 Objets _\(4 Pièces, 4 Bottes, 4 Épées, 5 Cafés, 4 Marteaux, 4 Sacs, 3 Arbalètes\)_, 4 Ruines, 4 marqueurs de Relations, 3 marqueurs de Score, 9 marqueurs de Rappel, 3 marqueurs d’inondation, 1 Placard de la Mare.
+          text: 26 Jetons _\(12 Enclaves, 6 Assemblées, 8 Ovations\)_, 28 Objets _\(4 Pièces, 4 Bottes, 4 Épées, 5 Cafés, 4 Marteaux, 4 Sacs, 3 Arbalètes\)_, 4 Ruines, 4 marqueurs de Relations, 3 marqueurs de Score, 9 marqueurs de Rappel, 3 marqueurs d’inondation, 1 placard Mare.
         - name: Pièces en bois.
           text: 43 Guerriers _\(20 Diaspora, 20 Conseil, 10 Sconses Gredins\)_, 3 Vagabond / Capitaines _\(Geôlier, Gladiateur, Tricheur\)_, 3 Monuments _\(Fort-Souris, Renardière, Bourg-Lapin\)_.
         - name: Cartes.
@@ -1745,7 +1744,7 @@
         - name: Lancer le dé de supervision.
           text: Lorsqu’un joueur gagne une carte Nomade, il lance le dé de supervision et place autant de marqueurs de supervision sur la carte Nomade que le résultat du dé. Le joueur ne compte que les étoiles dorées s’il a le plus de points de victoire (ou qu’il est à égalité pour le plus de points de victoire). Sinon, il compte toutes les étoiles _(et ce même s’il a activé une carte Domination)_.
         - name: Gagner le Nomade d’un autre joueur.
-          text: À la fin de son tour, le joueur doit retirer un marqueur de supervision de chaque carte Nomade qu’il possède. Puis, pour chaque carte nomade qu’il supervise et qui ne possède plus de marqueur de supervision, il doit choisir un autre joueur _(il peut s’agir de celui avec le plus de points de victoire)_ et lui donner cette carte ainsi qu’un marqueur Nomade. Chaque joueur ayant reçu une carte Nomade place le marqueur Nomade sous son Crépuscule _(pour rappel)_ et lance immédiatement un dé de supervision (E.1.2).
+          text: À la fin de son tour, le joueur doit retirer un marqueur de supervision de chaque carte Nomade qu’il possède. Puis, pour chaque carte nomade qu’il supervise et qui ne possède plus de marqueur de supervision, il doit choisir un autre joueur _(il peut s’agir de celui avec le plus de points de victoire)_ et lui donner cette carte ainsi qu’un marqueur Nomade. Chaque joueur ayant reçu une carte Nomade place le marqueur Nomade sous son Crépuscule _(pour rappel)_ et lance immédiatement un dé de supervision (`rule:23.1.2`).
 
     - name: Capacités et Actions
       pretext: Les Nomades possèdent de nombreuses actions et capacités représentées par des icônes spécifiques. Les actions et capacités qui commencent par le terme « Superviseur » sont octroyées au joueur qui supervise le Nomade.
@@ -1792,7 +1791,7 @@
   appendix: G
   children:
     - name: Adjacence
-      pretext: Une clairière est adjacente à toute autre clairière qui lui est reliée par un chemin. Un bois est adjacent à toute clairière qui le touche sans traverser un chemin imprimé, et adjacent à toute bois dont il est seulement séparé par un seul chemin, sauf sur le Lac (`rule:25.3.4`).
+      pretext: Une clairière est adjacente à toute autre clairière qui lui est reliée par un chemin. Un bois est adjacent à toute clairière qui le touche sans traverser un chemin imprimé, et adjacent à toute bois dont il est seulement séparé par un seul chemin, sauf sur le Lac (`rule:21.3.4`).
 
     - name: Adversaire
       pretext: Tout autre joueur avec lequel vous n’avez pas formé de coalition (`rule:9.2.8`), ou tout Nomade qui se trouve dans la réserve ou qui est supervisé par un joueur adverse.
@@ -1810,7 +1809,7 @@
       pretext: La chaîne de clairières et de chemins qui déterminent les limites du plateau, y compris les Chemins fermés du plateau Montagne.
 
     - name: Capacité
-      pretext: Effet persistant d’une faction comme indiqué au sommet de son plateau de faction et dans la section Règles et capacités de la faction, ou effet persistant d’un Nomade, comme indiqué sur sa carte Nomade (`rule:22.2.2`).
+      pretext: Effet persistant d’une faction comme indiqué au sommet de son plateau de faction et dans la section Règles et capacités de la faction, ou effet persistant d’un Nomade, comme indiqué sur sa carte Nomade (`rule:23.2.2`).
 
     - name: Chemin
       pretext: Ligne blanche reliant deux clairières

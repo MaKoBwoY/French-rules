@@ -1164,7 +1164,7 @@
         - name: Nageurs.
           text: La Diaspora considère les rivières comme des chemins et peut se déplacer le long d’une rivière reliant sans discontinuité les clairières de départ et d’arrivée, peu importe qui contrôle ces clairières. _(Elle peut toujours utiliser les chemins.)_
         - name: Peurs Contagieuses.
-          text: En combat, après qu’un adversaire vous a combattu dans une clairière avec une Enclave paisible, ou a retiré une Enclave paisible autrement que lors d’un combat, retournez face militante toutes les Enclaves paisibles avec des pièces de cet adversaire et placez 1 guerrier sur chaque Enclave retournée.
+          text: Après qu’un adversaire vous a combattu dans une clairière avec une Enclave paisible, ou a retiré une Enclave paisible autrement que lors d’un combat, retournez face militante toutes les Enclaves paisibles avec des pièces de cet adversaire et placez 1 guerrier sur chaque Enclave retournée.
         - name: Négociations.
           text: Une fois pendant son tour, un adversaire avec des pièces de faction dans la clairière d’une Enclave militante peut la retourner face paisible. S’il ne contrôle pas la clairière et qu’un autre joueur contrôle, il doit donner une carte à ce joueur pour retourner l’Enclave.
         - name: Fabrication.

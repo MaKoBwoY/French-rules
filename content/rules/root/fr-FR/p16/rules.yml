@@ -1,4 +1,4 @@
-: Règles d’or
+- name: Règles d’or
   color: '#000000'
   children:
     - name: Conflit de règles

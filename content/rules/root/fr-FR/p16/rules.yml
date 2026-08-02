@@ -1,4 +1,4 @@
-- name: Règles d’or
+: Règles d’or
   color: '#000000'
   children:
     - name: Conflit de règles
@@ -1141,7 +1141,7 @@
           text: 'La Diaspora possède 12 jetons Enclave double-face : une face est paisible et l’autre est militante. Chaque clairière peut contenir une Enclave.'
           children:
           - name: Couleur de clairière.
-            text: Une Enclave paisible ajoute la couleur Grenouille à sa clairière, qui a alors deux couleurs. Une Enclave militante remplace la couleur de sa clairière en la recouvrant avec la couleur Grenouille. _(Une pièce de fabrication avec une Enclave paisible peut être utilisée pour la couleur Grenouille ou la couleur imprimée de la clairière. Une pièce de fabrication avec une Enclave militante peut seulement être utilisée pour la couleur Grenouille. La couleur Grenouille peut aussi être utilisée pour un symbole de fabrication tricolore.)_
+            text: Une Enclave paisible ajoute la couleur Grenouille à sa clairière, qui a alors deux couleurs. Une Enclave militante remplace la couleur de sa clairière en la recouvrant avec la couleur Grenouille. _(Une pièce de fabrication avec une Enclave paisible peut être utilisée pour la couleur Grenouille ou la couleur imprimée de sa clairière. Une pièce de fabrication avec une Enclave militante peut seulement être utilisée pour la couleur Grenouille. La couleur Grenouille peut aussi satisfaire à un symbole de fabrication tricolore.)_
           - name: Correspondance.
             text: Divers effets ciblent une clairière de même couleur qu’autre chose, comme une carte. La clairière d’une Enclave militante peut correspondre à la couleur Grenouille. La clairière d’une Enclave paisible peut correspondre soit à la couleur Grenouille, soit à la couleur de clairière imprimée. _(Par exemple, le Culte des Lézards pourrait construire avec une carte Grenouille pour placer un jardin Renard dans la clairière Renard d’une Enclave paisible, puisqu’elle a aussi la couleur Grenouille. L’Alliance de la Forêt pourrait dépenser une carte Renard et une carte Grenouille pour déclencher une Révolte dans la clairière Renard d’une Enclave paisible.)_
         - name: Cartes Grenouille.

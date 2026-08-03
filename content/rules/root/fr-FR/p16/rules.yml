@@ -431,7 +431,7 @@
           text: 'Vous pouvez effectuer l’action Révolte autant de fois que souhaité en résolvant les étapes suivantes :'
           children:
             - name: 'Étape 1 : Choisir une clairière.'
-              text: Choisissez une clairière sympathisante sans base correspondant à une base non construite de votre plateau de faction.
+              text: Choisissez une clairière sympathisante sans base correspondant à une base de votre plateau de faction.
             - name: 'Étape 2 : Dépenser les partisans.'
               text: Dépensez 2 partisans de la couleur de la clairière choisie.
             - name: 'Étape 3 : Résoudre l’effet.'

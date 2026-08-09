@@ -1296,7 +1296,7 @@
   icon: faction-knaves
   children:
     - name: Aperçu
-      pretext: Les Gredins des Bois-Fonds s’efforcent de moquer les puissants et de protéger les nécessiteux. À chaque tour, ils marquent des points de victoire pour leurs **Ovations** à travers les Sous-Bois ainsi que pour les guerriers retenus **Prisonniers** lors des combats avec les factions ennemies. Ils agissent chaque tour avec l’un de leurs trois **Capitaines**, secondé par une bande de **Sconses** agités pouvant se déplacer avec lui. Toutefois, un Capitaine ne peut plus agir à nouveau tant que les Gredins n’ont pas agi avec chacun des trois Capitaines, puis entrepris une **Relâche**. Ils retournent face cachée les objets de leur **Planque** pour effectuer des actions spéciales avec leurs Capitaines. Ces objets ne sont retournés face visible qu’après une Relâche, tout comme leurs Capitaines.
+      pretext: Les Gredins des Bois-Fonds s’efforcent de moquer les puissants et de protéger les nécessiteux. À chaque tour, ils marquent des points de victoire pour leurs **Ovations** à travers les Sous-Bois ainsi que pour les guerriers retenus **Prisonniers** lors des combats contre les factions ennemies. Ils agissent chaque tour avec l’un de leurs trois **Capitaines**, secondé par une bande de **Sconses** agités pouvant se déplacer avec lui. Toutefois, un Capitaine ne peut plus agir à nouveau tant que les Gredins n’ont pas agi avec chacun des trois Capitaines, puis entrepris une **Relâche**. Ils retournent face cachée les objets de leur **Planque** pour effectuer des actions spéciales avec leurs Capitaines. Ces objets ne sont retournés face visible qu’après une Relâche, tout comme leurs Capitaines.
 
     - name: Règles et capacités de la faction
       children:

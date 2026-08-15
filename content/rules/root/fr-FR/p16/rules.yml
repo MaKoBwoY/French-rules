@@ -418,7 +418,7 @@
         - name: 'Étape 1 : Préparer les guerriers.'
           text: Formez une réserve de 10 guerriers.
         - name: 'Étape 2 : Placer les bases.'
-          text: Placez 3 bases sur leurs cases Base respectives du plateau de faction.
+          text: Placez 3 bases sur leurs cases Base correspondantes du plateau de faction.
         - name: 'Étape 3 : Remplir la piste de Sympathie.'
           text: Placez 10 jetons de Sympathie sur votre piste de Sympathie.
         - name: 'Étape 4 : Gagner des partisans.'
@@ -555,7 +555,7 @@
         - name: 'Étape 4 : Préparer les ruines.'
           text: Prenez les 4 ruines du plateau, et prenez les objets `item:sack`, `item:boot`, `item:hammer`, et `item:sword` marqués d’un "R". Placez-en un sous chaque ruine et mélangez-les. Puis, remettez chaque pile sur un emplacement Ruine vide.
         - name: 'Étape 5 : Prendre les objets de départ.'
-          text: Prenez les objets marqués d’un "D" indiqués sur votre carte de personnage. Placez les objets `item:tea`, `item:coin`, et `item:sack` face visible sur leurs pistes respectives de votre plateau de faction. Placez tous les autres objets face visible dans votre Sacoche. Remettez les objets "D" restants dans la boite.
+          text: Prenez les objets marqués d’un "D" indiqués sur votre carte de personnage. Placez les objets `item:tea`, `item:coin`, et `item:sack` face visible sur leurs pistes correspondantes de votre plateau de faction. Placez tous les autres objets face visible dans votre Sacoche. Remettez les objets "D" restants dans la boite.
         - name: 'Étape 6 : Relations.'
           text: Prenez les marqueurs de relation des factions en jeu (hors Vagabond) et placez-les sur la case Indifférent du tableau de relations.
 
@@ -813,7 +813,7 @@
         - name: 'Étape 3 : Émerger.'
           text: Placez 2 guerriers et 1 Tunnel dans une clairière en coin qui n’est la clairière de départ en coin d’aucun autre joueur et, si possible, qui est diagonalement opposée à une clairière de départ en coin. Il s’agit de votre clairière de départ. Placez ensuite 2 guerriers dans chaque clairière adjacente à la clairière choisie en coin de plateau, sauf dans le Terrier. _(Cette règle a été modifiée dans cette édition pour plus de flexibilité.)_
         - name: 'Étape 4 : Remplir les pistes de bâtiments.'
-          text: Placez 3 Citadelles et 3 Marchés sur leurs cases Bâtiment respectives.
+          text: Placez 3 Citadelles et 3 Marchés sur leurs cases Bâtiment correspondantes.
         - name: 'Étape 5 : Réunir des Ministres.'
           text: Placez 9 cartes de ministre face visible sur votre pile de Ministres Non-Ralliés.
         - name: 'Étape 6 : Remplir les cases Couronne.'
